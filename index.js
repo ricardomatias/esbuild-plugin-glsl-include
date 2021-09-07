@@ -6,9 +6,9 @@ const glsl = () => ({
     name: 'glsl-include',
     setup(build) {
         const readFile = util.promisify(fs.readFile);
-        const cache = new Map();
 
         async function onLoad(args) {
+            const cache = new Map();
             const includes = [];
             const warnings = [];
             const watchFiles = new Set();
@@ -76,7 +76,7 @@ const glsl = () => ({
             return {
                 contents: source,
                 warnings,
-                // watchFiles: [...watchFiles],
+                watchFiles: [...watchFiles],
                 loader: 'text',
             };
         }
