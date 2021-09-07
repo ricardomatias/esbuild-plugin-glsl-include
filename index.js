@@ -85,4 +85,4 @@ const glsl = () => ({
     },
 });
 
-export { glsl };
+export { glsl as default, glsl };
