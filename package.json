@@ -1,0 +1,37 @@
+{
+    "name": "esbuild-plugin-glsl-include",
+    "description": "A plugin for esbuild to preprocess GLSL #include pragmas",
+    "version": "0.0.1",
+    "type": "module",
+    "exports": "./index.js",
+    "types": "./index.d.ts",
+    "keywords": [
+        "glsl",
+        "webgl",
+        "include",
+        "pragma",
+        "import"
+    ],
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "test": "ava test/*.spec.js"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ricardomatias/esbuild-plugin-glsl-import.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ricardomatias/esbuild-plugin-glsl-import/issues"
+    },
+    "author": {
+        "name": "Ricardo Matias",
+        "url": "https://github.com/ricardomatias"
+    },
+    "devDependencies": {
+        "ava": "^3.15.0",
+        "esbuild": "^0.12.25"
+    }
+}
