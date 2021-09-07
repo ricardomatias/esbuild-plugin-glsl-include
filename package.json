@@ -5,6 +5,10 @@
     "type": "module",
     "exports": "./index.js",
     "types": "./index.d.ts",
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
     "keywords": [
         "glsl",
         "webgl",
@@ -21,10 +25,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git://github.com/ricardomatias/esbuild-plugin-glsl-import.git"
+        "url": "git://github.com/ricardomatias/esbuild-plugin-glsl-include.git"
     },
     "bugs": {
-        "url": "https://github.com/ricardomatias/esbuild-plugin-glsl-import/issues"
+        "url": "https://github.com/ricardomatias/esbuild-plugin-glsl-include/issues"
     },
     "author": {
         "name": "Ricardo Matias",
